@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OMG Playground</title>
+  <link rel="stylesheet" href="./dev/index.css">
+  <style>
+    .img-preview {
+      @apply w-full
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div class="w-screen grid grid-cols-1 gap-4 overflow-hidden">
+      <div>
+        <input type="file" id="input" accept="image/*">
+      </div>
+      <div class="grid grid-cols-3" id="preview">
+      </div>
+    </div>
+  </div>
+  <script src="dev/main" type="module"></script>
+</body>
+</html>
