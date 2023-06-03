@@ -1,7 +1,9 @@
-import * as jpg from '@jsquash/jpeg'
-import * as png from '@jsquash/png'
-import { optimise } from '@jsquash/oxipng'
 import { CompressRequest } from './type'
+import jpgEncode from '@jsquash/jpeg/encode'
+import jpgDecode from '@jsquash/jpeg/decode'
+import pngEncode from '@jsquash/png/encode'
+import pngDecode from '@jsquash/png/decode'
+import init, { optimise as pngOptimize } from '@jsquash/oxipng/codec/pkg/squoosh_oxipng'
 
 async function decode (file: File) {
   const buffer = await file.arrayBuffer()
@@ -9,10 +11,10 @@ async function decode (file: File) {
   switch (file.type) {
     case 'image/jpeg':
     case 'image/jpg':
-      return jpg.decode(buffer)
+      return jpgDecode(buffer)
 
     case 'image/png':
-      return png.decode(buffer)
+      return pngDecode(buffer)
   }
 }
 
@@ -20,10 +22,12 @@ async function encode (imageData: ImageData, type: string) {
   switch (type) {
     case 'image/jpeg':
     case 'image/jpg':
-      return jpg.encode(imageData)
+      return jpgEncode(imageData)
 
     case 'image/png':
-      return optimise(await png.encode(imageData))
+      await init()
+
+      return pngOptimize(new Uint8Array(await pngEncode(imageData)), 4, false)
   }
 }
 
