@@ -53,7 +53,7 @@ async function onChange (event: Event) {
 
   if (file) {
     const queue = file.type === 'image/png'
-      ? [compress(file, 'image/png'),compress(file, 'image/jpg')]
+      ? [compress(file, 'image/png'), compress(file, 'image/jpg')]
       : [compress(file, 'image/jpg')]
 
     queue.push(compressor(file))
