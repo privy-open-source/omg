@@ -6,11 +6,11 @@ __metadata:
   cacheKey: 8
 
 "@jsquash/avif@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "@jsquash/avif@npm:1.0.2"
+  version: 1.1.2
+  resolution: "@jsquash/avif@npm:1.1.2"
   dependencies:
     wasm-feature-detect: ^1.2.11
-  checksum: 1fcb422cecd4467be4008125445c21fe71059b4807e9d13cb6e1907bab9d1011b0031971e70d65298822eb68c1609dbe8e96544abca99867553803d7af18ec72
+  checksum: 7b316d5b2a77b4c8d40c6b7c77e5b0640911a9d8edb46815225898c06dfa1c363fd071256880ac2c46db69802aac1428d81d1bdbce5142fd7d7eefbb00f10c29
   languageName: node
   linkType: hard
 
