@@ -22,11 +22,11 @@ __metadata:
   linkType: hard
 
 "@jsquash/oxipng@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@jsquash/oxipng@npm:1.0.0"
+  version: 1.0.2
+  resolution: "@jsquash/oxipng@npm:1.0.2"
   dependencies:
     wasm-feature-detect: ^1.2.11
-  checksum: 4f34c1aad0e3047c937f0b78e95abf7315a8651e873cecb2e6f8a4610785b18445c571fc49e30f7cf057e4f814d02a72eaa237a559342fb78732773cfc4e99b8
+  checksum: 0dc5825177b587c23976d886570598ee0e476f93259a423d3c0b2d9409322e0dcbf3005d6598000032ffa6fa2c4ea6acb6e20fb42d7da134f0e2fa8b8462ea75
   languageName: node
   linkType: hard
 
