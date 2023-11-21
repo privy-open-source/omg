@@ -31,9 +31,9 @@ __metadata:
   linkType: hard
 
 "@jsquash/resize@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "@jsquash/resize@npm:1.0.1"
-  checksum: 7893e79a45575b9897d7ec7b620dff6965515fb3d45ef6a647a27248d92a36adce80cce0d3ae47720c43505edd5ded3491ed0224e7155c8c464ac6b8730bcd4c
+  version: 1.1.1
+  resolution: "@jsquash/resize@npm:1.1.1"
+  checksum: db10d04041fb6481a789c0aa1f8c9197f3289eed77dc149857f9939bd3290d645de65a0104db7b648f8dd4d667b6f0264a39abf5aa2dd8fb8ec64997b57ee341
   languageName: node
   linkType: hard
 
