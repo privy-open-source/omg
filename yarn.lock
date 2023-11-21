@@ -15,9 +15,9 @@ __metadata:
   linkType: hard
 
 "@jsquash/jpeg@npm:^1.1.5":
-  version: 1.1.5
-  resolution: "@jsquash/jpeg@npm:1.1.5"
-  checksum: d91d77d8fd317fbb911749db49bd3b42aba06acfc563768e2a32da2ede60aac9263ed82a72e1dcd36c8b42b56c3d18bc2cf365f5acbb53a4b10e5439df8d7e11
+  version: 1.4.0
+  resolution: "@jsquash/jpeg@npm:1.4.0"
+  checksum: c40c12133b405587e4163baebb31dda25736d06796c1ab0210c1720a76cd320cb0e7ffd2d57a8cc708691eaa756f70efee065f243393c19290969de6b62b0015
   languageName: node
   linkType: hard
 
