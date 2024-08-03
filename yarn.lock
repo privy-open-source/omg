@@ -2,22 +2,22 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 6
-  cacheKey: 8
+  version: 8
+  cacheKey: 10
 
 "@jsquash/avif@npm:^1.0.2":
   version: 1.0.2
   resolution: "@jsquash/avif@npm:1.0.2"
   dependencies:
-    wasm-feature-detect: ^1.2.11
-  checksum: 1fcb422cecd4467be4008125445c21fe71059b4807e9d13cb6e1907bab9d1011b0031971e70d65298822eb68c1609dbe8e96544abca99867553803d7af18ec72
+    wasm-feature-detect: "npm:^1.2.11"
+  checksum: 8/1fcb422cecd4467be4008125445c21fe71059b4807e9d13cb6e1907bab9d1011b0031971e70d65298822eb68c1609dbe8e96544abca99867553803d7af18ec72
   languageName: node
   linkType: hard
 
 "@jsquash/jpeg@npm:^1.1.5":
   version: 1.1.5
   resolution: "@jsquash/jpeg@npm:1.1.5"
-  checksum: d91d77d8fd317fbb911749db49bd3b42aba06acfc563768e2a32da2ede60aac9263ed82a72e1dcd36c8b42b56c3d18bc2cf365f5acbb53a4b10e5439df8d7e11
+  checksum: 8/d91d77d8fd317fbb911749db49bd3b42aba06acfc563768e2a32da2ede60aac9263ed82a72e1dcd36c8b42b56c3d18bc2cf365f5acbb53a4b10e5439df8d7e11
   languageName: node
   linkType: hard
 
@@ -25,15 +25,15 @@ __metadata:
   version: 1.0.0
   resolution: "@jsquash/oxipng@npm:1.0.0"
   dependencies:
-    wasm-feature-detect: ^1.2.11
-  checksum: 4f34c1aad0e3047c937f0b78e95abf7315a8651e873cecb2e6f8a4610785b18445c571fc49e30f7cf057e4f814d02a72eaa237a559342fb78732773cfc4e99b8
+    wasm-feature-detect: "npm:^1.2.11"
+  checksum: 8/4f34c1aad0e3047c937f0b78e95abf7315a8651e873cecb2e6f8a4610785b18445c571fc49e30f7cf057e4f814d02a72eaa237a559342fb78732773cfc4e99b8
   languageName: node
   linkType: hard
 
 "@jsquash/resize@npm:^1.0.1":
   version: 1.0.1
   resolution: "@jsquash/resize@npm:1.0.1"
-  checksum: 7893e79a45575b9897d7ec7b620dff6965515fb3d45ef6a647a27248d92a36adce80cce0d3ae47720c43505edd5ded3491ed0224e7155c8c464ac6b8730bcd4c
+  checksum: 8/7893e79a45575b9897d7ec7b620dff6965515fb3d45ef6a647a27248d92a36adce80cce0d3ae47720c43505edd5ded3491ed0224e7155c8c464ac6b8730bcd4c
   languageName: node
   linkType: hard
 
@@ -41,8 +41,8 @@ __metadata:
   version: 1.1.3
   resolution: "@jsquash/webp@npm:1.1.3"
   dependencies:
-    wasm-feature-detect: ^1.2.11
-  checksum: e74c6ef3b4d2e6895aacd0b054871f3f60147ccded0e67f91b2ae071d968c23cb5fd14ca6ca15f2eb5d8b6b871b1fc66f05acc4575e4fb064165d16b57d387f9
+    wasm-feature-detect: "npm:^1.2.11"
+  checksum: 8/e74c6ef3b4d2e6895aacd0b054871f3f60147ccded0e67f91b2ae071d968c23cb5fd14ca6ca15f2eb5d8b6b871b1fc66f05acc4575e4fb064165d16b57d387f9
   languageName: node
   linkType: hard
 
@@ -50,17 +50,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@privyid/omg@workspace:."
   dependencies:
-    "@jsquash/avif": ^1.0.2
-    "@jsquash/jpeg": ^1.1.5
-    "@jsquash/oxipng": ^1.0.0
-    "@jsquash/resize": ^1.0.1
-    "@jsquash/webp": ^1.1.3
+    "@jsquash/avif": "npm:^1.0.2"
+    "@jsquash/jpeg": "npm:^1.1.5"
+    "@jsquash/oxipng": "npm:^1.0.0"
+    "@jsquash/resize": "npm:^1.0.1"
+    "@jsquash/webp": "npm:^1.1.3"
   languageName: unknown
   linkType: soft
 
 "wasm-feature-detect@npm:^1.2.11":
   version: 1.5.1
   resolution: "wasm-feature-detect@npm:1.5.1"
-  checksum: a99be305a83530271e47212ef138644c75bc65bcf2b2c094b22fe4e13b9ca1a2c00fdd8a01d663b338e189459a5e1f27d9cbd71c8adca3c71957beea51606193
+  checksum: 8/a99be305a83530271e47212ef138644c75bc65bcf2b2c094b22fe4e13b9ca1a2c00fdd8a01d663b338e189459a5e1f27d9cbd71c8adca3c71957beea51606193
   languageName: node
   linkType: hard
