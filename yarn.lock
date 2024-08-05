@@ -3,7 +3,7 @@
 
 __metadata:
   version: 8
-  cacheKey: 10
+  cacheKey: 10c0
 
 "@jsquash/avif@npm:^1.0.2":
   version: 1.0.2
@@ -30,10 +30,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jsquash/resize@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "@jsquash/resize@npm:1.0.1"
-  checksum: 8/7893e79a45575b9897d7ec7b620dff6965515fb3d45ef6a647a27248d92a36adce80cce0d3ae47720c43505edd5ded3491ed0224e7155c8c464ac6b8730bcd4c
+"@jsquash/resize@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@jsquash/resize@npm:2.0.0"
+  checksum: 10c0/f094cdac0faa7a9e9e82f20c46d6fb229140f5ca382b5199861beb9c76e55442942b2c03e09279db07de585357fba147d9994173027b79d46da3cf07b9673665
   languageName: node
   linkType: hard
 
@@ -53,7 +53,7 @@ __metadata:
     "@jsquash/avif": "npm:^1.0.2"
     "@jsquash/jpeg": "npm:^1.1.5"
     "@jsquash/oxipng": "npm:^1.0.0"
-    "@jsquash/resize": "npm:^1.0.1"
+    "@jsquash/resize": "npm:^2.0.0"
     "@jsquash/webp": "npm:^1.1.3"
   languageName: unknown
   linkType: soft
