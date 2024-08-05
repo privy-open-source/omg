@@ -4,7 +4,7 @@
   "dependencies": {
     "@jsquash/avif": "^1.0.2",
     "@jsquash/jpeg": "^1.1.5",
-    "@jsquash/oxipng": "^1.0.0",
+    "@jsquash/oxipng": "^2.0.0",
     "@jsquash/resize": "^2.0.0",
     "@jsquash/webp": "^1.1.3"
   }
