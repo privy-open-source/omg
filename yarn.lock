@@ -5,12 +5,12 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@jsquash/avif@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "@jsquash/avif@npm:1.0.2"
+"@jsquash/avif@npm:^2.0.0":
+  version: 2.1.1
+  resolution: "@jsquash/avif@npm:2.1.1"
   dependencies:
     wasm-feature-detect: "npm:^1.2.11"
-  checksum: 8/1fcb422cecd4467be4008125445c21fe71059b4807e9d13cb6e1907bab9d1011b0031971e70d65298822eb68c1609dbe8e96544abca99867553803d7af18ec72
+  checksum: 10c0/2da5cab4518964838302511d01d1e202704070af1a287e519e26a59a28a7605abf5d2d27dc14ff1f77a81b48a833ef6a6aa344b24f1bdf1fd3aed274f7067a2a
   languageName: node
   linkType: hard
 
@@ -50,7 +50,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@privyid/omg@workspace:."
   dependencies:
-    "@jsquash/avif": "npm:^1.0.2"
+    "@jsquash/avif": "npm:^2.0.0"
     "@jsquash/jpeg": "npm:^1.1.5"
     "@jsquash/oxipng": "npm:^2.0.0"
     "@jsquash/resize": "npm:^2.0.0"
